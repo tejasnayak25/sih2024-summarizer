@@ -28,11 +28,11 @@
     </style>
 </head>
 <body style=" padding: 10px; display:  flex; flex-direction: column;">
-    <textarea name="textarea" id="textarea" class="textarea"></textarea>
+    <textarea name="textarea" id="textarea" class="textarea" placeholder="Enter text"></textarea>
     <div style=" display:  flex; justify-content: center;padding: 20px;">
         <button id="submit-btn" class=" btn">Summarize</button>
     </div>
-    <textarea name="output-textarea" id="output-textarea" class="textarea" style="flex:1 1 0%;" readonly></textarea>
+    <textarea name="output-textarea" id="output-textarea" class="textarea" style="flex:1 1 0%;" placeholder="Summary" readonly></textarea>
     <script>
         let btn = document.getElementById("submit-btn");
         let textarea = document.getElementById("textarea");
