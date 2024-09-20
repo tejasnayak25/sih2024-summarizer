@@ -1,7 +1,6 @@
 from flask import Flask, send_file, request
 import os
 import google.generativeai as genai
-import os
 
 genai.configure(api_key=os.environ["GOOGLE_AI_API"])
 
